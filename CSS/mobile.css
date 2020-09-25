@@ -1,0 +1,116 @@
+/* Navigation */
+.main-nav {
+  width: 760px;
+  overflow: hidden;
+}
+
+.nav-container ul {
+  display: none;
+}
+
+.nav-container button {
+  position: relative;
+  display: block;
+  top: 13px;
+  left: 305px;
+  background: #16235a;
+  color: #ccc;
+  border: 2px solid #16235a;
+  border-radius: 3px;
+  padding: 7px 15px;
+  font-size: 15px;
+}
+
+.nav-container button:hover {
+  background: #ccc;
+  color: #16235a;
+}
+
+/* Info Section */
+.info-container {
+  height: 470px;
+}
+
+/* About */
+.about-container .about-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.about-container .about-div img {
+  width: 240px;
+  height: 250px;
+  margin-bottom: 5px;
+  margin-left: 90px;
+}
+
+.about-div p {
+  padding-top: 25px;
+}
+
+/* Work */
+.work-container p {
+  padding: 0 5px;
+}
+
+.work-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.work-grid img {
+  width: 485.33px;
+  height: 350px;
+}
+
+/* Contact */
+.contact-container p {
+  padding-left: 35px;
+  justify-content: left;
+}
+
+/* Footer */
+.footer-container ul {
+  margin: 0 100px;
+}
+
+.footer-container ul li {
+  float: left;
+}
+
+.footer-container a {
+  padding-left: 12px;
+}
+
+/* Blog */
+.article-container {
+  width: 760px;
+}
+
+.aside-container {
+  width: 300px;
+}
+.article-div {
+  margin-left: 50px;
+  width: 760px;
+}
+
+.article-div img {
+  width: 364.6px;
+  height: 200px;
+}
+
+.article-div p {
+  padding-left: -10px;
+}
+
+.aside-content {
+  position: relative;
+  
+  bottom: 0px;
+  left: 0px;
+  background: #f1e0d6;
+  padding: 15px 55px;
+}

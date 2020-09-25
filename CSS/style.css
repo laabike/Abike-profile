@@ -1,0 +1,302 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #16235a;
+}
+
+/* Utility */
+.nav-container {
+  max-width: 1180px;
+  margin: 5px;
+  padding: 0px 12px;
+  position: relative;
+  
+}
+
+.info-container {
+  max-width: 1180px;
+  height: 370px;
+  background: #fff;
+}
+
+.about-container {
+  max-width: 1180px;
+  height: auto;
+  padding: 48px;
+  background: #f1e0d6;
+}
+
+.work-container {
+  max-width: 1180px;
+  height: auto;
+}
+
+.contact-container {
+  background:  #f1e0d6;
+  max-width: 1180px;
+}
+
+.article-container {
+  width: 850px;
+}
+
+.aside-container {
+  width: 300px;
+}
+
+.footer-container {
+  background:  #f1e0d6;
+  max-width: 1180px;
+  height: 190px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Zilla Slab', serif;
+}
+
+.m-heading {
+  color: #16235a;
+}
+
+/* Navigation */
+.main-nav {
+  background: #f1e0d6;
+  overflow: auto;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+}
+
+.main-nav .logo {
+  float: left;
+  padding: 15px 10px;
+  font-size: 28px;
+}
+
+.main-nav ul {
+  float: right;
+}
+
+.main-nav ul li {
+  float: left;
+}
+
+.main-nav ul li a {
+  display: block;
+  margin: 5px ;
+  padding: 18px 20px 0 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.main-nav ul li a:hover {
+  color:  #6f83dc;
+  border-bottom: 1px solid #0f173e;
+}
+
+.nav-container button {
+  display: none;
+}
+
+/* Info Section */
+.info {
+  font-size: 65px;
+  text-align: center;
+  padding-top: 155px;
+  margin-right: 90px;
+  /* margin-left: -90px; */
+}
+
+.info-container p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* About */
+.about-container h4 {
+  text-align: center;
+  margin: 32px 0;
+  font-size: 40px;
+}
+
+.about-div {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 64px;
+}
+
+.about-div img {
+  width: 264px;
+  height: 280px;
+  margin: 24px;
+}
+
+.about-div p {
+  padding-top: 82px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+/* Work */
+.work-container h4 {
+  text-align: center;
+  font-size: 40px;
+  margin: 32px 0;
+}
+
+.work-container p {
+  text-align: center;
+}
+
+.work-grid img {
+  width: 373.33px;
+  height: 373.33px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  margin: 47px 47px 0 47px;
+}
+
+/* Contact */
+.contact-container h4 {
+  text-align: center;
+  font-size: 40px;
+  padding: 60px 0 28px 0;
+}
+
+.contact-container p {
+  letter-spacing: 1px;
+  line-height: 27px;
+  font-size: 16px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+/* Blog */
+.article-div{
+  margin: 120px 0 120px 120px;
+}
+
+.article-div img {
+  width: 760.33px;
+  height: 373.63px;
+}
+
+.article-div h3 {
+    padding: 20px 0 15px;
+}
+
+.author-div {
+  padding-bottom: 20px;
+}
+
+.article-div address, span, time {
+  font-size: 14px;
+  display: inline;
+}
+
+.article-div .coding {
+  font-size: 14px;
+  text-decoration: underline;
+  padding-left: 20px;
+  font-style: italic;
+  color: #adb8eb
+}
+
+.article-div p {
+  letter-spacing: 1px;
+  line-height: 27px;
+  font-size: 16px;
+  padding-bottom: 15px;
+  border-bottom: 2px dotted #f1e0d6 ;
+}
+
+.article-div p a {
+  font-style: italic;
+  color: #adb8eb;
+}
+
+.article-div .win {
+ margin-top: -50px;
+}
+
+.article-div .win1 {
+  margin-bottom: -270px;
+ }
+
+/* Aside */
+.aside-content {
+  position: relative;
+  bottom: 1890px;
+  left: 950px;
+  background: #f1e0d6;
+  padding: 15px 55px;
+}
+
+.aside-content h4 {
+  font-size: 20px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  margin-left: -35px;
+}
+
+.aside-content ul li {
+  text-decoration: underline;
+  list-style: disc;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.aside-content .tel {
+  font-size: 16px;
+  text-decoration: underline;
+  margin-left: -35px;
+}
+
+/* Footer */
+.footer-container h5 {
+  text-align: center;
+  font-size: 20px;
+  padding: 40px 0 20px 0;
+}
+
+.footer-container ul {
+  /* text-align: center; */
+  margin: 0 500px;
+}
+
+.footer-container ul li {
+  float: left;
+}
+
+.footer-container a {
+ font-size: 16px;
+ margin-top: 30px;
+ padding-left: 8px;
+ color: #000;
+}
+
+.footer-container a:hover {
+  color:  #16235a;
+}
